@@ -1,0 +1,13 @@
+.admin_page_item {
+    padding: 16px;
+    width: 100%;
+    overflow: scroll;
+}
+
+.admin_page_title {
+    margin-bottom: 20px;
+}
+
+.admin_page_item form {
+    margin-bottom: 80px;
+}

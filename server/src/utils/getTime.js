@@ -1,0 +1,1 @@
+module.exports = (time) => new Date(new Date(time ? time : Date.now()).toLocaleString('en', { timeZone: 'Asia/Tashkent' }));

@@ -1,0 +1,16 @@
+.admin_nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 18px;
+    background: #62d2a2;
+}
+
+.admin_nav h2 {
+    font-size: 20px;
+    margin: 0;
+    color: #fff;
+}
+
+.admin_nav .logout {
+    cursor: pointer;
+}

@@ -1,0 +1,6 @@
+.current_path{
+    display: flex;
+    align-items: center;
+    color: #000;
+    padding: 20px 0;
+};

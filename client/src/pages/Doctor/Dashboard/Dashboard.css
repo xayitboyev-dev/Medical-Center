@@ -1,0 +1,95 @@
+.doctor_queues {
+  padding: 40px 0;
+}
+
+.doctor_customers_item {
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 10px 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.doctor_customers_item.waiting {
+  background: #ffe6b8;
+}
+
+.doctor_customers_item.looking {
+  background: #cdf7ff;
+}
+
+.doctor_customers_item.completed {
+  background: #cfffe0;
+}
+
+.doctor_customers_item p {
+  margin-bottom: 6px;
+}
+
+.doctor_current {
+  padding: 40px 0;
+}
+
+.doctor_current_queues {
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #e9e9e9;
+  padding: 14px;
+}
+
+.doctor_current_queues .title {
+  font-size: 24px;
+}
+
+.doctor_current_queues p {
+  margin-bottom: 6px;
+  font-size: 14px;
+}
+
+.doctor_current_queues .doctor_details {
+  margin-bottom: 20px;
+  margin-top: 15px;
+}
+
+.doctor_current_queues .empty h3 {
+  font-size: 14px;
+  color: red;
+}
+
+.doctor_current_queues .doctor_actions {
+  margin: 12px 0;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.doctor_current_queues .doctor_actions.waiting .start,
+.doctor_current_queues .doctor_actions.waiting .cancel {
+  display: block;
+}
+
+.doctor_current_queues .doctor_actions.waiting .success {
+  display: none;
+}
+
+.doctor_current_queues .doctor_actions.looking .start,
+.doctor_current_queues .doctor_actions.looking .cancel {
+  display: none;
+}
+
+.doctor_current_queues .doctor_actions.looking .success {
+  display: block;
+  width: 100%;
+}
+
+.doctor_current_queues .doctor_actions.looking .success textarea {
+  display: block;
+  outline: none;
+  border: none;
+  font-size: 12px;
+  border-radius: 6px;
+  padding: 8px;
+  margin-bottom: 8px;
+}

@@ -1,0 +1,6 @@
+write your .env file on this directory!
+
+MONGO_URL="your mongodb database url"
+BOT_TOKEN="your telegram bot token"
+SECRET_KEY="your-secret-key"
+PORT="port, if you working on local"
